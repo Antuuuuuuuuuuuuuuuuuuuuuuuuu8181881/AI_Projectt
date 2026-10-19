@@ -25,7 +25,8 @@ git commit -m "Add recommendation system example"
 git push -u origin main
 ```
 
-(ARRASTRA AQUÍ LA CAPTURA DEL REPOSITORIO CON LOS ARCHIVOS SUBIDOS)
+<img width="659" height="568" alt="image" src="https://github.com/user-attachments/assets/669f79ad-b4a6-4b34-83c6-afde7ad70a00" />  <img width="684" height="334" alt="image" src="https://github.com/user-attachments/assets/2013f197-804c-412f-aa27-d9c39e474793" />
+
 
 ## Reflexión
 
