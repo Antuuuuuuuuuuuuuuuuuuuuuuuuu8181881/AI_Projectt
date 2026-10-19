@@ -35,7 +35,8 @@ Ingresé a https://github.com, creé una cuenta con mi correo electrónico y la 
 
 Hice clic en **New**, asigné el nombre `AI_Projectt`, agregué una descripción y lo dejé como **público**. Además, agregué un archivo README, un archivo `.gitignore` con la plantilla de Python y la licencia MIT. Finalmente, hice clic en **Crear repositorio**.
 
-CAPTURA1
+<img width="658" height="565" alt="image" src="https://github.com/user-attachments/assets/3ec3fad5-5289-420b-91bf-0177bd3a8d3d" />
+
 
 ### Paso 3: Creación del código con IA generativa
 
@@ -51,7 +52,8 @@ git commit -m "Add recommendation system example"
 git push -u origin main
 ```
 
-CAPTURA2
+<img width="650" height="325" alt="image" src="https://github.com/user-attachments/assets/4b749524-9587-4b95-a364-789480149133" />
+
 
 ## Reflexión
 
