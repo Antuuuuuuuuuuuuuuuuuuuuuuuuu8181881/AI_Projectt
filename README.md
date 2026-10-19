@@ -1,38 +1,27 @@
+# AI_Projectt – Sistema de recomendación con IA generativa
 
-## Proceso seguido
+**Estudiante:** Romina Antonia Tapia Tapia
 
-### Paso 1: Creación de la cuenta en GitHub
+**Asignatura:** ETDI02 – Unidad 3: Tendencias emergentes en inteligencia artificial
 
-Ingresé a https://github.com, creé una cuenta con mi correo electrónico y la validé. Luego, en la sección de planes de GitHub Copilot, seleccioné el plan gratuito (Free).
+**Profesora:** Jacqueline Lisette San Martín Grandón
 
-### Paso 2: Creación del repositorio
+**Actividad:** Actividad formativa – GitHub Copilot
 
-Hice clic en **New**, asigné el nombre `AI_Projectt`, agregué una descripción y lo dejé como **público**. Además, agregué un archivo README, un archivo `.gitignore` con la plantilla de Python y la licencia MIT. Finalmente, hice clic en **Crear repositorio**.
+## Descripción del proyecto
 
-(ARRASTRA AQUÍ LA CAPTURA DE LA PÁGINA DE CREAR REPOSITORIO)
+Este repositorio contiene un sistema de recomendación de productos simple, escrito en Python con apoyo de herramientas de **inteligencia artificial generativa**, como GitHub Copilot.
 
-### Paso 3: Creación del código con IA generativa
+El programa `recommendation_system.py`:
 
-El archivo `recommendation_system.py` se desarrolló con apoyo de inteligencia artificial generativa. Se escribieron comentarios que describen cada parte del programa (por ejemplo, `# Cargar los datos` o `# Crear y entrenar el modelo`) y, a partir de ellos, la IA sugirió el código, que luego se revisó y se probó para comprobar que funcionara correctamente.
+1. Crea un conjunto de datos de ejemplo con 16 productos (precio, valoración, popularidad y categoría).
+2. Entrena un modelo de **K-Nearest Neighbors (KNN)** para predecir la categoría de un producto.
+3. Mide la precisión del modelo con datos de prueba.
+4. Recomienda los productos más parecidos a uno elegido por el usuario.
 
-### Paso 4: Subida de los archivos a GitHub
-
-Subí los archivos desde la página web de GitHub con la opción **Add file → Upload files** y guardé los cambios con el mensaje `Add files via upload`. Este paso equivale a los siguientes comandos de Git en la terminal:
+## Cómo ejecutarlo
 
 ```bash
-git add .
-git commit -m "Add recommendation system example"
-git push -u origin main
+pip install -r requirements.txt
+python recommendation_system.py
 ```
-
-<img width="659" height="568" alt="image" src="https://github.com/user-attachments/assets/669f79ad-b4a6-4b34-83c6-afde7ad70a00" />  <img width="684" height="334" alt="image" src="https://github.com/user-attachments/assets/2013f197-804c-412f-aa27-d9c39e474793" />
-
-
-## Reflexión
-
-GitHub Copilot es un ejemplo de una tendencia emergente de la IA: los **asistentes de programación basados en IA generativa**. Estas herramientas permiten escribir código más rápido a partir de instrucciones en lenguaje natural, lo que facilita el aprendizaje y aumenta la productividad, incluso para personas que recién comienzan a programar. Sin embargo, sus sugerencias pueden contener errores, por lo que siempre es necesario revisar, probar y comprender el código antes de usarlo.
-
-## Referencias
-
-- GitHub. (s. f.). *GitHub Copilot documentation*. https://docs.github.com/en/copilot
-- GitHub. (s. f.). *Getting started with GitHub Copilot*. https://docs.github.com/en/copilot/getting-started-with-github-copilot
